@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #header{
+        background-color:green;
+        height:50px;
+        text-align:center;
+
+
+        }
+        .logo{
+            background-color: green;
+            background: green;
+            height: 50px;
+            width: 50px;
+          
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+  <div id="header">
+      <img src="data:image/png;base64,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" alt="" height="50px" width="50px" class="logo">
+      <b>Online voting system</b>
+
+  </div>
+  <div class="table">
+    <table class="table table-bordered">
+        <thead>
+            
+          <tr>
+          
+            <th scope="col">Candidate Name</th>
+            <th scope="col">Symbol</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+          <tr>
+            
+            <td>{{i.candidate_name}}</td>
+            <td><img src="{{i.candidate_logo.url}}" alt="" class="logo"></td>
+            <form action="{% url 'voting' %}" method="get">
+              <input type="hidden" name="name" value="{{i.candidate_name}}">
+            <td><button onclick="Refresh()" type="submit" class="btn btn-primary">Vote</button></td>
+          </form>
+          </tr>
+          {% endfor %}
+        
+        </tbody>
+        
+      </table>
+  </div>
+
+  <div id="footer">
+    <h2><u><i>VVPAT</i></u></h2>
+    {% if img  %}
+<img src="{{img.url}}" alt="">
+{% else %}
+<img src="" alt="">
+{% endif %}
+  </div>
+
+ 
+<script>
+  function Refresh(){
+    location.reload()
+  }
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>
